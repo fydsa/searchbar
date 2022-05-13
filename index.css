@@ -1,0 +1,35 @@
+root {
+    --bg: red;
+}
+
+body {
+    box-sizing: content-box;
+    margin: auto;
+    background-color: aliceblue;
+}
+
+.searchbar {
+    width: 5rem;
+    height: 1.5rem;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    border-radius: 0.5rem;
+    margin-top: 5rem;
+}
+
+.searchbar input {
+    display: none;
+    outline: none;
+    border: none;
+    height: 100%;
+    width: 90%;
+}   
+
+.sidebar label svg {
+    position: absolute;
+}
+
+.unlcicked {
+
+}
